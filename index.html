@@ -3,132 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetSuite 360 - Complete Pet Care Companion</title>
+    <title>PetSuite 360 - Your Complete Pet Care Companion</title>
+    <meta name="description" content="Track your pet's health, meals, medications, and activities. Smart reminders, health insights, and iCloud sync across all devices.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/b4/45/b8b44567-fcf3-7b0d-d032-16f88f4fe628/AppIcon-0-0-1x_U007epad-0-85-220.png/460x0w.webp">
-    <style>
-        .hero {
-            text-align: center;
-            padding: 60px 20px;
-        }
-        .hero .logo {
-            width: 120px;
-            height: 120px;
-            margin-bottom: 24px;
-        }
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 16px;
-        }
-        .hero .tagline {
-            font-size: 1.2rem;
-            color: var(--text-muted);
-            margin-bottom: 32px;
-        }
-        .app-store-badge {
-            height: 54px;
-            transition: transform 0.2s;
-        }
-        .app-store-badge:hover {
-            transform: scale(1.05);
-        }
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 24px;
-            margin: 40px 0;
-        }
-        .feature {
-            text-align: center;
-            padding: 24px;
-            background: var(--card-bg);
-            border-radius: 16px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-        .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 12px;
-        }
-        .feature h3 {
-            font-size: 1.1rem;
-            margin-bottom: 8px;
-        }
-        .feature p {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            margin: 0;
-        }
-        .links-section {
-            text-align: center;
-            margin-top: 40px;
-        }
-        .links-section a {
-            display: inline-block;
-            margin: 8px 16px;
-            padding: 12px 24px;
-            background: var(--card-bg);
-            border-radius: 10px;
-            color: var(--text-color);
-            font-weight: 500;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .links-section a:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            text-decoration: none;
-        }
-    </style>
+    <meta name="theme-color" content="#E8786D">
+    <meta property="og:title" content="PetSuite 360 - Pet Care Companion">
+    <meta property="og:description" content="The complete app for tracking your pet's health, meals, and care routines.">
+    <meta property="og:type" content="website">
 </head>
 <body>
+    <!-- Decorative paw prints -->
+    <div class="paw-decoration paw-1">🐾</div>
+    <div class="paw-decoration paw-2">🐾</div>
+    <div class="paw-decoration paw-3">🐾</div>
+
     <div class="container">
         <div class="hero">
-            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/b4/45/b8b44567-fcf3-7b0d-d032-16f88f4fe628/AppIcon-0-0-1x_U007epad-0-85-220.png/460x0w.webp" alt="PetSuite 360" class="logo">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/b4/45/b8b44567-fcf3-7b0d-d032-16f88f4fe628/AppIcon-0-0-1x_U007epad-0-85-220.png/460x0w.webp" alt="PetSuite 360 App Icon" class="logo">
             <h1>PetSuite 360</h1>
             <p class="tagline">Your Complete Pet Care Companion</p>
-            <a href="https://apps.apple.com/app/petsuite-360/id6754687366">
+            <a href="https://apps.apple.com/app/petsuite-360/id6754687366" aria-label="Download PetSuite 360 on the App Store">
                 <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" class="app-store-badge">
             </a>
         </div>
 
         <div class="features">
             <div class="feature">
-                <div class="feature-icon">🐾</div>
+                <span class="feature-icon">🐾</span>
                 <h3>Pet Profiles</h3>
-                <p>Create detailed profiles for all your pets with photos and health records</p>
+                <p>Detailed profiles with photos and health records for all your pets</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">📋</div>
+                <span class="feature-icon">📋</span>
                 <h3>Care Logging</h3>
-                <p>Track meals, walks, medications, and all daily activities</p>
+                <p>Track meals, walks, medications, and daily activities effortlessly</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">⏰</div>
+                <span class="feature-icon">⏰</span>
                 <h3>Smart Reminders</h3>
-                <p>Never miss feeding times, vet appointments, or medications</p>
+                <p>Never miss feeding times, vet visits, or medication schedules</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">📊</div>
+                <span class="feature-icon">📊</span>
                 <h3>Health Insights</h3>
-                <p>Monitor trends and get insights into your pet's wellbeing</p>
+                <p>Monitor trends and gain valuable insights into pet wellbeing</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">☁️</div>
+                <span class="feature-icon">☁️</span>
                 <h3>iCloud Sync</h3>
-                <p>Access your pet data across all your Apple devices</p>
+                <p>Seamlessly access pet data across all your Apple devices</p>
             </div>
             <div class="feature">
-                <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                <span class="feature-icon">👨‍👩‍👧‍👦</span>
                 <h3>Family Sharing</h3>
-                <p>Keep the whole family coordinated on pet care</p>
+                <p>Keep everyone coordinated on your pet's care routine</p>
             </div>
         </div>
 
         <div class="links-section">
-            <h2>Quick Links</h2>
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Service</a>
-            <a href="support.html">Support & FAQ</a>
+            <h2>Resources</h2>
+            <div class="link-buttons">
+                <a href="privacy.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                    Privacy Policy
+                </a>
+                <a href="terms.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Terms of Service
+                </a>
+                <a href="support.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Support & FAQ
+                </a>
+            </div>
         </div>
     </div>
 
@@ -138,7 +92,8 @@
             <a href="terms.html">Terms</a>
             <a href="support.html">Support</a>
         </nav>
-        <p>&copy; 2026 PetSuite 360. All rights reserved.</p>
+        <p>Made with ❤️ for pet lovers everywhere</p>
+        <p style="margin-top: 8px;">&copy; 2026 PetSuite 360. All rights reserved.</p>
     </footer>
 </body>
 </html>
