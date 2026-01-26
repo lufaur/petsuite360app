@@ -577,6 +577,41 @@ footer p {
     }
 }
 
+/* Language switcher */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.language-switcher label {
+    font-size: 1.2rem;
+}
+
+.language-switcher select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(61, 53, 53, 0.1);
+    background: var(--cream);
+    color: var(--text-primary);
+    font-family: 'Source Sans 3', -apple-system, sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.language-switcher select:hover {
+    border-color: var(--coral-light);
+}
+
+.language-switcher select:focus {
+    outline: none;
+    border-color: var(--coral);
+    box-shadow: 0 0 0 3px rgba(232, 120, 109, 0.1);
+}
+
 /* Print styles */
 @media print {
     body::before,
@@ -587,5 +622,9 @@ footer p {
     main {
         box-shadow: none;
         border: 1px solid #ddd;
+    }
+
+    .language-switcher {
+        display: none;
     }
 }

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetSuite 360 - Your Complete Pet Care Companion</title>
-    <meta name="description" content="The all-in-one iOS app for pet care. Track health, meals, medications, expenses, and vet visits. Smart AI insights, family sharing, and iCloud sync.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="app-icon.png?v=2">
+    <title>PetSuite 360 - رفيقك الشامل في رعاية الحيوانات الأليفة</title>
+    <meta name="description" content="التطبيق الشامل لرعاية الحيوانات الأليفة على iOS. تتبع الصحة والوجبات والأدوية والنفقات وزيارات الطبيب البيطري. رؤى ذكية بالذكاء الاصطناعي ومشاركة عائلية ومزامنة iCloud.">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="../app-icon.png?v=2">
     <meta name="theme-color" content="#E8786D">
     <link rel="alternate" hreflang="en" href="https://lufaur.github.io/petsuite360app/">
     <link rel="alternate" hreflang="ar" href="https://lufaur.github.io/petsuite360app/ar/index.html">
@@ -16,11 +16,61 @@
     <link rel="alternate" hreflang="he" href="https://lufaur.github.io/petsuite360app/he/index.html">
     <link rel="alternate" hreflang="it" href="https://lufaur.github.io/petsuite360app/it/index.html">
     <link rel="alternate" hreflang="x-default" href="https://lufaur.github.io/petsuite360app/">
-    <meta property="og:title" content="PetSuite 360 - Complete Pet Care Companion">
-    <meta property="og:description" content="Track health, meals, medications, expenses, and more. Smart AI insights for better pet care.">
+    <meta property="og:title" content="PetSuite 360 - رفيقك الشامل في رعاية الحيوانات الأليفة">
+    <meta property="og:description" content="تتبع الصحة والوجبات والأدوية والنفقات والمزيد. رؤى ذكية بالذكاء الاصطناعي لرعاية أفضل لحيوانك الأليف.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://lufaur.github.io/petsuite360app/app-icon.png?v=2">
     <style>
+        /* RTL overrides */
+        body {
+            direction: rtl;
+            text-align: right;
+        }
+
+        .nav-links {
+            flex-direction: row-reverse;
+        }
+
+        .feature-card, .stats-bar, .highlight-features {
+            direction: rtl;
+        }
+
+        .feature-icon-wrap {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .highlight-feature {
+            flex-direction: row-reverse;
+        }
+
+        .highlight-feature svg {
+            margin-left: 10px;
+            margin-right: 0;
+        }
+
+        .link-card {
+            flex-direction: row-reverse;
+        }
+
+        .link-card svg {
+            margin-left: 14px;
+            margin-right: 0;
+        }
+
+        .cta-button {
+            flex-direction: row-reverse;
+        }
+
+        .cta-button svg {
+            margin-left: 10px;
+            margin-right: 0;
+        }
+
+        footer nav {
+            flex-direction: row-reverse;
+        }
+
         /* Extended styles for landing page */
         .hero-section {
             text-align: center;
@@ -433,29 +483,29 @@
 
         <!-- Hero Section -->
         <section class="hero-section animate-in">
-            <img src="app-icon.png?v=2" alt="PetSuite 360 App Icon" class="logo">
+            <img src="../app-icon.png?v=2" alt="أيقونة تطبيق PetSuite 360" class="logo">
             <h1>PetSuite 360</h1>
-            <p class="tagline">Your Complete Pet Care Companion</p>
-            <p class="subtagline">Track health, meals, medications, expenses & more. Smart AI insights help you be the best pet parent.</p>
+            <p class="tagline">رفيقك الشامل في رعاية الحيوانات الأليفة</p>
+            <p class="subtagline">تتبع الصحة والوجبات والأدوية والنفقات والمزيد. رؤى ذكية بالذكاء الاصطناعي تساعدك على أن تكون أفضل مربي حيوانات أليفة.</p>
 
             <div class="app-badges">
-                <a href="https://apps.apple.com/app/petsuite-360/id6754687366" aria-label="Download on the App Store">
-                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" class="app-store-badge">
+                <a href="https://apps.apple.com/app/petsuite-360/id6754687366" aria-label="تحميل من App Store">
+                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ar?size=250x83" alt="تحميل من App Store" class="app-store-badge">
                 </a>
             </div>
 
             <div class="stats-bar">
                 <div class="stat-item">
-                    <div class="stat-number">14+</div>
-                    <div class="stat-label">Log Types</div>
+                    <div class="stat-number">+14</div>
+                    <div class="stat-label">نوع سجل</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">12</div>
-                    <div class="stat-label">Event Categories</div>
+                    <div class="stat-label">فئة أحداث</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">∞</div>
-                    <div class="stat-label">Pets (Premium)</div>
+                    <div class="stat-label">حيوانات أليفة (بريميوم)</div>
                 </div>
             </div>
         </section>
@@ -463,86 +513,86 @@
         <!-- Core Features -->
         <section class="section animate-in delay-1">
             <div class="section-header">
-                <span class="section-label">Core Features</span>
-                <h2 class="section-title">Everything Your Pet Needs</h2>
-                <p class="section-subtitle">One app to manage every aspect of your pet's life - from daily care to health tracking.</p>
+                <span class="section-label">الميزات الأساسية</span>
+                <h2 class="section-title">كل ما يحتاجه حيوانك الأليف</h2>
+                <p class="section-subtitle">تطبيق واحد لإدارة كل جوانب حياة حيوانك الأليف - من الرعاية اليومية إلى تتبع الصحة.</p>
             </div>
 
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon-wrap">📊</div>
-                    <h3>Smart Dashboard</h3>
-                    <p>Context-aware cards that adapt throughout the day. See what matters most for each pet at a glance.</p>
+                    <h3>لوحة تحكم ذكية</h3>
+                    <p>بطاقات واعية بالسياق تتكيف على مدار اليوم. شاهد ما يهم أكثر لكل حيوان أليف بنظرة واحدة.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">⚡</div>
-                    <h3>Quick Logging</h3>
-                    <p>Log activities in seconds with pre-filled templates. Track feeding, walks, medication, grooming & more.</p>
+                    <h3>تسجيل سريع</h3>
+                    <p>سجل الأنشطة في ثوانٍ مع قوالب معبأة مسبقاً. تتبع التغذية والمشي والأدوية والعناية والمزيد.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">🧠</div>
-                    <span class="feature-tag">AI Powered</span>
-                    <h3>Smart Insights</h3>
-                    <p>AI-powered recommendations based on your pet's patterns. Know what your pet needs before they do.</p>
+                    <span class="feature-tag">بالذكاء الاصطناعي</span>
+                    <h3>رؤى ذكية</h3>
+                    <p>توصيات مدعومة بالذكاء الاصطناعي بناءً على أنماط حيوانك الأليف. اعرف ما يحتاجه حيوانك قبل أن يحتاجه.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">💰</div>
-                    <h3>Expense Tracking</h3>
-                    <p>Track vet bills, food costs, and more. Upload receipts, categorize spending, and monitor budgets.</p>
+                    <h3>تتبع النفقات</h3>
+                    <p>تتبع فواتير الطبيب البيطري وتكاليف الطعام والمزيد. ارفع الإيصالات وصنف الإنفاق وراقب الميزانيات.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">📅</div>
-                    <h3>Events & Calendar</h3>
-                    <p>Schedule vet visits, grooming, training, and vaccinations. Get reminders so you never miss an appointment.</p>
+                    <h3>الأحداث والتقويم</h3>
+                    <p>جدول زيارات الطبيب البيطري والعناية والتدريب والتطعيمات. احصل على تذكيرات حتى لا تفوت أي موعد.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">💊</div>
-                    <h3>Health Tracking</h3>
-                    <p>Monitor weight, medications, vaccinations, and health metrics. Keep a complete medical history.</p>
+                    <h3>تتبع الصحة</h3>
+                    <p>راقب الوزن والأدوية والتطعيمات والمقاييس الصحية. احتفظ بسجل طبي كامل.</p>
                 </div>
             </div>
         </section>
 
         <!-- Log Types Showcase -->
         <section class="highlight-section animate-in delay-2">
-            <span class="section-label">Quick Logging</span>
-            <h2>14 Activity Types to Track</h2>
-            <p>From daily meals to vet visits, track everything that matters for your pet's wellbeing.</p>
+            <span class="section-label">التسجيل السريع</span>
+            <h2>14 نوعاً من الأنشطة للتتبع</h2>
+            <p>من الوجبات اليومية إلى زيارات الطبيب البيطري، تتبع كل ما يهم لرفاهية حيوانك الأليف.</p>
 
             <div class="log-types">
-                <span class="log-type-chip">🍽️ Feeding</span>
-                <span class="log-type-chip">💧 Water</span>
-                <span class="log-type-chip">🚶 Walk</span>
-                <span class="log-type-chip">💊 Medication</span>
-                <span class="log-type-chip">✂️ Grooming</span>
-                <span class="log-type-chip">🏥 Vet Visit</span>
-                <span class="log-type-chip">⚖️ Weight</span>
-                <span class="log-type-chip">😊 Mood</span>
-                <span class="log-type-chip">💤 Sleep</span>
-                <span class="log-type-chip">🎓 Training</span>
-                <span class="log-type-chip">🧴 Supplements</span>
-                <span class="log-type-chip">🚽 Toilet</span>
-                <span class="log-type-chip">📝 Notes</span>
-                <span class="log-type-chip">⭐ Custom</span>
+                <span class="log-type-chip">🍽️ التغذية</span>
+                <span class="log-type-chip">💧 الماء</span>
+                <span class="log-type-chip">🚶 المشي</span>
+                <span class="log-type-chip">💊 الأدوية</span>
+                <span class="log-type-chip">✂️ العناية</span>
+                <span class="log-type-chip">🏥 زيارة البيطري</span>
+                <span class="log-type-chip">⚖️ الوزن</span>
+                <span class="log-type-chip">😊 المزاج</span>
+                <span class="log-type-chip">💤 النوم</span>
+                <span class="log-type-chip">🎓 التدريب</span>
+                <span class="log-type-chip">🧴 المكملات</span>
+                <span class="log-type-chip">🚽 الحمام</span>
+                <span class="log-type-chip">📝 الملاحظات</span>
+                <span class="log-type-chip">⭐ مخصص</span>
             </div>
 
             <div class="highlight-features">
                 <div class="highlight-feature">
                     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                    Type-specific smart forms
+                    نماذج ذكية لكل نوع
                 </div>
                 <div class="highlight-feature">
                     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                    Auto timestamps
+                    طوابع زمنية تلقائية
                 </div>
                 <div class="highlight-feature">
                     <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                    AI summaries
+                    ملخصات بالذكاء الاصطناعي
                 </div>
             </div>
         </section>
@@ -550,57 +600,57 @@
         <!-- Premium Features -->
         <section class="section animate-in delay-3">
             <div class="section-header">
-                <span class="section-label">Premium</span>
-                <h2 class="section-title">Unlock More Power</h2>
-                <p class="section-subtitle">Get unlimited pets, family sharing, and advanced features with Premium.</p>
+                <span class="section-label">بريميوم</span>
+                <h2 class="section-title">افتح المزيد من القوة</h2>
+                <p class="section-subtitle">احصل على حيوانات أليفة غير محدودة ومشاركة عائلية وميزات متقدمة مع بريميوم.</p>
             </div>
 
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon-wrap">👨‍👩‍👧‍👦</div>
-                    <span class="feature-tag">Premium</span>
-                    <h3>Family Sharing</h3>
-                    <p>Collaborate with family members on pet care. Assign tasks, split expenses, and share activity feeds.</p>
+                    <span class="feature-tag">بريميوم</span>
+                    <h3>المشاركة العائلية</h3>
+                    <p>تعاون مع أفراد العائلة في رعاية الحيوانات الأليفة. وزع المهام وقسم النفقات وشارك سجلات الأنشطة.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">☁️</div>
-                    <span class="feature-tag">Premium</span>
-                    <h3>iCloud Sync</h3>
-                    <p>Access your pet data across all Apple devices. iPhone, iPad, and Apple Watch - always in sync.</p>
+                    <span class="feature-tag">بريميوم</span>
+                    <h3>مزامنة iCloud</h3>
+                    <p>الوصول إلى بيانات حيواناتك الأليفة عبر جميع أجهزة Apple. iPhone وiPad وApple Watch - دائماً متزامنة.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">📍</div>
-                    <span class="feature-tag">Premium</span>
-                    <h3>AirTag Integration</h3>
-                    <p>Link AirTags to your pets for location tracking. Know where your furry friend is at all times.</p>
+                    <span class="feature-tag">بريميوم</span>
+                    <h3>تكامل AirTag</h3>
+                    <p>اربط أجهزة AirTag بحيواناتك الأليفة لتتبع الموقع. اعرف أين صديقك ذو الفراء في جميع الأوقات.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon-wrap">📈</div>
-                    <span class="feature-tag">Premium</span>
-                    <h3>Advanced Analytics</h3>
-                    <p>Beautiful charts showing expense trends, health patterns, and care analytics over time.</p>
+                    <span class="feature-tag">بريميوم</span>
+                    <h3>تحليلات متقدمة</h3>
+                    <p>رسوم بيانية جميلة تعرض اتجاهات النفقات وأنماط الصحة وتحليلات الرعاية بمرور الوقت.</p>
                 </div>
             </div>
         </section>
 
         <!-- CTA Section -->
         <section class="cta-section animate-in delay-4">
-            <h2>Start Your Pet Care Journey</h2>
-            <p>Join thousands of pet parents who trust PetSuite 360 for their furry family members.</p>
+            <h2>ابدأ رحلة رعاية حيوانك الأليف</h2>
+            <p>انضم إلى آلاف مربي الحيوانات الأليفة الذين يثقون في PetSuite 360 لأفراد عائلتهم ذوي الفراء.</p>
             <a href="https://apps.apple.com/app/petsuite-360/id6754687366" class="cta-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
-                Download Free
+                تحميل مجاني
             </a>
         </section>
 
         <!-- Resources Links -->
         <section class="section">
             <div class="section-header">
-                <span class="section-label">Resources</span>
-                <h2 class="section-title">Need Help?</h2>
+                <span class="section-label">الموارد</span>
+                <h2 class="section-title">تحتاج مساعدة؟</h2>
             </div>
 
             <div class="links-grid">
@@ -608,19 +658,19 @@
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
-                    Privacy Policy
+                    سياسة الخصوصية
                 </a>
                 <a href="terms.html" class="link-card">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
-                    Terms of Service
+                    شروط الخدمة
                 </a>
                 <a href="support.html" class="link-card">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    Support & FAQ
+                    الدعم والأسئلة الشائعة
                 </a>
             </div>
         </section>
@@ -628,15 +678,15 @@
 
     <footer>
         <nav>
-            <a href="privacy.html">Privacy</a>
-            <a href="terms.html">Terms</a>
-            <a href="support.html">Support</a>
+            <a href="privacy.html">الخصوصية</a>
+            <a href="terms.html">الشروط</a>
+            <a href="support.html">الدعم</a>
         </nav>
         <div class="language-switcher">
             <label for="lang-select">🌐</label>
             <select id="lang-select" onchange="switchLanguage(this.value)">
-                <option value="en" selected>English</option>
-                <option value="ar">العربية</option>
+                <option value="en">English</option>
+                <option value="ar" selected>العربية</option>
                 <option value="de">Deutsch</option>
                 <option value="es">Español</option>
                 <option value="fr">Français</option>
@@ -662,8 +712,8 @@
             document.getElementById('lang-select').value = currentLang;
         });
         </script>
-        <p>Made with ❤️ for pet lovers everywhere</p>
-        <p style="margin-top: 8px;">&copy; 2026 PetSuite 360. All rights reserved.</p>
+        <p>صُنع بكل ❤️ لمحبي الحيوانات الأليفة في كل مكان</p>
+        <p style="margin-top: 8px;">&copy; 2026 PetSuite 360. جميع الحقوق محفوظة.</p>
     </footer>
 </body>
 </html>
